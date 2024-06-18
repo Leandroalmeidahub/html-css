@@ -1,0 +1,28 @@
+@charset="UTF-8";
+
+#principal {font-size: 40px;
+    background-color: rgb(19, 138, 243);
+    text-align: justify;
+    text-align: center;
+    box-shadow: center;
+    border-radius: 20px;
+
+
+}
+
+
+h2 { font-size: 30px; color:rgb(19, 138, 243);
+
+}
+
+h3 { font-size:larger;
+    color: blue;
+
+}
+.terceiro1 {
+    color: brown;
+}
+
+p {
+    font-weight: bold;
+}
