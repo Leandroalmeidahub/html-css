@@ -6,12 +6,22 @@
     <title>centralizando caixas</title>
 
     <style>
+
+        main {
+
+            background-color: black;
+            
+        }
         #conteiner {
             background-color: rgb(247, 252, 0);
             background-size: 100vh;
+            width: 500px;
             height: 400px;
-            background-position: relative;
+            position: relative;
             background-size: 100% 100%;
+            margin: auto;
+            position: relative;
+            bottom: 17px;
             
             
             
@@ -19,31 +29,44 @@
         
         #conteudo {
             background-color: black;
-            height: 100px;
-            width: 100px;
-            background-position: absolute;
+            height: 200px;
+            width: 400px;
+            position: absolute;
             background-size: 100% 100%;
-            
+
             left: 50%;
             top: 50%;
 
-            transform: translate('-50% -50%');
-
-
-
+            transform: translate(-50%, -50%);
         }
+    .p1 {
+        display: block;
+        font-size: 1.3em;
+        font-family: monospace;
+        font-weight: bold;
+        background-color: rgba(245, 245, 220, 0.288);
+        color: yellow;
+        margin: auto;
+        margin-left: -15px;
+        position: absolute;
+        left: 25%;
+        top: 45%;
+        transform: translate(-5%, -5%);
 
+    }        
 
     </style>
 </head>
 <body>
-    <section id="conteiner">
-        <article id="conteudo">
+    <main>
+        <p>YELLOW</p>
 
-
-
-        </article>
-    </section>
+        <section id="conteiner">
+            <article id="conteudo">
+                <p class="p1">DESISTIR NÃO É UMA OPÇÃO !</p>
+            </article>
+        </section>
+    </main>
 
 
 </body>
