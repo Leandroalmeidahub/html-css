@@ -7,11 +7,7 @@
     <style>
         
         body {
-            background-image: url(globo-mundo.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-           
+          background-color: rgb(145, 143, 141);          
             
 
         }
@@ -33,10 +29,14 @@
         caption {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             font-size: 1.2em;
+            height: 30px;
+            padding-top: 25px;
             color: white;
-            background-color: black;
-            padding: 5px;
+            background-color: rgba(0, 0, 0, 0.692);
+            
         }
+
+        
 
         td {
             border: 1px solid black;
@@ -110,10 +110,10 @@
         <thead>
             <tr>
                 
-                <td>Posição</td>
-                <td>País</td>
-                <td>Estimativa da ONU</td>
-                <td>Crescimento desde a última estimativa</td>
+                <td scope="col">Posição</td>
+                <td scope="col">País</td>
+                <td scope="col">Estimativa da ONU</td>
+                <td scope="col">Crescimento desde a última estimativa</td>
                 
             </tr>
         </thead>
@@ -184,7 +184,7 @@
 
         <tfoot>
             <tr>
-                <th class="rodape">Número estimado:</th>
+                <th class="rodape" scope="row">Número estimado:</th>
                 <th></th>
                 <th>599.358.025 <br> Habitantes</th>
                 <th></th>
