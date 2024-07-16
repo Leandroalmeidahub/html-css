@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela - Filmes</title>
+    <style>
+
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: black;
+
+        }
+
+        table {
+           border: 3px solid red;
+           border-collapse: collapse;
+           width: 600px;
+           height: 310px;
+           background-color: rgb(255, 215, 215);
+           color: black;
+           text-align: center;
+           position: absolute;
+           background-size: 100% 100%;
+           left: 50%;
+           top: 50%;
+           transform: translate(-50%, -50%);
+          
+
+        }
+ 
+        th, td {
+            padding: 5px;
+            border: 2px solid black;
+            text-align: center;
+        }
+        
+        th {
+            background-color: rgb(197, 197, 197);
+
+        }
+
+        .genero {
+            font-weight: bolder;
+        }
+
+        .nome {
+            background-color: white;
+            font-size: 1.2em;
+        }
+
+        caption {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            font-size: 1.4em;
+            font-weight: bolder;
+        }
+    
+    </style>
+</head>
+<body>
+    
+<table>
+    <caption>Filmes favoritos </caption>
+    
+    <tr>
+        <th style="width: 120px;">Grupos</th>
+        <th style="width: 120px;">Nomes</th>
+       
+        <th colspan="3">Filmes</th>
+        
+    </tr>
+
+    <tr>
+        <td class="genero" rowspan="3">Mulheres</td>
+        <td class="nome">Ana Maria</td>
+        <td>Hulk</td>
+        <td>Vingadores</td>
+        <td>Barbie</td>
+    </tr>
+
+    <tr>
+       
+        <td class="nome">Ana Beatriz</td>
+        <td>Oblivion</td>
+        <td>Amnésia</td>
+        <td>Star Wars</td>
+    </tr>
+
+    <tr>
+        
+        <td class="nome">Solange Maria</td>
+        <td>After</td>
+        <td>Deuses do Egito</td>
+        <td>Taxi Drive</td>
+    </tr>
+
+    <tr>
+        <td class="genero" rowspan="3">Homens</td>
+        <td class="nome">Davi Lucas</td>
+        <td>Intocáveis</td>
+        <td>Pelé - Eterno</td>
+        <td>Ronin</td>
+    </tr>
+
+    <tr>
+        
+        <td class="nome">Luiz Carlos</td>
+        <td>Rambo</td>
+        <td>Connan</td>
+        <td>Batman</td>
+    </tr>
+    <tr>
+        
+        <td class="nome">Leandro Almeida</td>
+        <td>Vingadores</td>
+        <td>Gladiadores</td>
+        <td>X-man</td>
+    </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</table>
+
+
+
+</body>
+</html>
