@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela desafio</title>
+    <style>
+        table {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border: 5px solid black;
+            border-collapse: collapse;
+            width: 600px;
+            margin: auto;
+            position: absolute;
+            background-size: 100% 100%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            overflow-x: scroll;
+        
+        }
+
+
+
+        th {
+            border: 3px solid black;
+            padding: 7px;
+            background-color: gray;
+            color: white;
+        }
+
+        .cabeça {
+            height: 40px;
+        }
+
+        td, th {
+           
+        }
+
+
+        td {
+            width: 100px;
+            height: 30px;
+            border: 2px solid black;
+            text-align: center;
+
+        }
+        
+        .exatas {
+            width: 600px;
+            height: 30px;
+            text-align: left;
+            color: white;
+           
+        }
+
+        .exatas02 {
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        .humanas02 {
+            text-align: center;
+            font-weight: bolder;
+
+        }
+
+        .humanas {
+            width: 500px;
+            height: 30px;
+            text-align: left;
+            color: white;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <tr>
+            <th class="cabeça">Área</th>
+            <th class="cabeça">Disciplinas</th>
+            <th class="cabeça">Nota 1</th>
+            <th class="cabeça">Nota 2</th>
+            <th class="cabeça">Média</th>
+
+        </tr>
+        <tr>
+            <td rowspan="3" class="exatas02">Exatas</td>
+            <td>Matemática</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td>Física</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td>Química</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+        </tr>
+
+        <tr class="exatas">
+            <th colspan="5"> Médias de exatas</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2" class="humanas02">Humanas</td>
+            <td>História</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Geografia</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+        </tr>
+
+        <tr class="humanas">
+            <th colspan="5"> Média de humanas </th>
+        </tr>
+
+    </table>
+</body>
+</html>
