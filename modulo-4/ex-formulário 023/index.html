@@ -4,21 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <style>
+
+        * {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 0px;
+            margin: 0px;
+
+        }
+
+        body {
+            background-color: lightgrey;
+            letter-spacing: 1px;
+
+        }
+
+        main {
+            
+            background-color: white;
+            width: 750px;
+            height: 550px;
+            margin: auto;
+            border: 10px solid gray;
+            border-radius: 10px;
+            padding: 20px 0px 0px 10px;
+
+        }
+
+        p {
+            line-height: 1.5em;
+        }
+
+        input {
+            background-color: rgb(200, 200, 200);
+            font-weight: bolder;
+
+        }
+
+        input.submit {
+            padding: 5px;
+            background-color: white;
+            
+        }
+
+        
+    </style>
 </head>
 <body>
+    <main>
+
+        <h1>Meu primeiro formulário</h1><br>
+        <form action="cadastro.php" autocomplete="off" >
+        
+            <p><label for="iname">Nome</label>:
+                <input type="text" name="name" id="iname"></p>
+        
+            <p><label for="isobrenome">Sobrenome</label>:
+                <input type="text" name="sobrenome" id="isobrenome"></p>
+            
+
+            <p><label for="iendereço">Endereço</label>:
+            <input type="text" name="endereço" id="iendereço"></p>
     
-<form action="cadastro.php">
-    <label for="name">
-        <p>Nome:</p><input type="text" name="name" id="iname">
-    </label>
-    <label for="name">
-        <p>Sobrenome:</p><input type="text" name="name" id="iname">
-    </label>
-        <p><input type="submit" value="Enviar"></p>
-    
-
-</form>
-
-
+            <p><label for="iendereço">Data de Nasc.</label>:
+            <input type="text" name="nascimento" id="inascimento"></p>
+        
+            <p><label for="iendereço">Tipo Sanguíneo</label>:
+            <input type="text" name="sangue" id="isangue"></p>
+            
+            <p><label for="iendereço">Escolaridade</label>:
+                <input type="text" name="escolaridade" id="iescolaridade"></p>
+                
+            <p><input id="enviar" type="submit" value="Enviar"></p>
+        
+        </form>
+    </main>
 </body>
 </html>
