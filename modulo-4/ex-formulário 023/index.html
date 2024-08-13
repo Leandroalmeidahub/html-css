@@ -38,13 +38,18 @@
         input {
             background-color: rgb(200, 200, 200);
             font-weight: bolder;
-
+            size: ;
         }
 
         input.submit {
             padding: 5px;
             background-color: white;
             
+        }
+
+        ::placeholder {
+            text-align: center;
+            letter-spacing: 3px;
         }
 
         
@@ -54,26 +59,26 @@
     <main>
 
         <h1>Meu primeiro formulário</h1><br>
-        <form action="cadastro.php" autocomplete="off" >
+        <form action="cadastro.php" method="post" autocomplete="off" >
         
-            <p><label for="iname">Nome</label>:
-                <input type="text" name="name" id="iname"></p>
-        
-            <p><label for="isobrenome">Sobrenome</label>:
-                <input type="text" name="sobrenome" id="isobrenome"></p>
-            
+            <p><label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" placeholder="Nome do usuário" required minlength="8" size="50" ></p> 
 
-            <p><label for="iendereço">Endereço</label>:
-            <input type="text" name="endereço" id="iendereço"></p>
-    
-            <p><label for="iendereço">Data de Nasc.</label>:
-            <input type="text" name="nascimento" id="inascimento"></p>
-        
-            <p><label for="iendereço">Tipo Sanguíneo</label>:
-            <input type="text" name="sangue" id="isangue"></p>
-            
-            <p><label for="iendereço">Escolaridade</label>:
+            <p><label for="isobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="isobrenome" required minlength="8"></p>
+
+            <p><label for="iendereço">Endereço:</label>
+                <input type="text" name="endereço" id="iendereço"></p>
+
+            <p><label for="iendereço">Data de Nasc.:</label>
+                <input type="text" name="nascimento" id="inascimento"></p>
+
+            <p><label for="iendereço">Tipo Sanguíneo:</label>
+                <input type="text" name="sangue" id="isangue"></p>
+
+            <p><label for="iendereço">Escolaridade:</label>
                 <input type="text" name="escolaridade" id="iescolaridade"></p>
+
                 
             <p><input id="enviar" type="submit" value="Enviar"></p>
         
