@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pequeno formulário escolar</title>
+    <style>
+        body{
+            font-size: 20px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>TESTANDO FORMULÁRIO ESCOLAR</h1>
+
+    <form action="cadastro.php" autocomplete="off"></form>
+
+    <p>
+        <label for="inome">NOME:</label>
+        <input type="text" name="nome" id="inome" required autocomplete="off">
+    </p>
+
+    <p>
+        <label for="isobrenome">SOBRENOME:</label>
+        <input type="text" name="nome" id="inome" required autocomplete="off">
+    </p>
+
+    <p>
+        <label for="imedia">MÉDIA ESCOLAR</label>
+        <input type="number" step="0.5" value="0.0" autocomplete="off">
+    </p>
+
+    <p>
+        <label for="imedia">PERÍODO ESCOLAR</label>
+        <input type="month" name="media" id="imedia" value="2024-08" autocomplete="off">
+    </p>
+
+    <p>
+        <label for="idata">DATA DA PROVA</label>
+        <input type="date" name="data" id="idata">
+    </p>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+
+
+
+</body>
+</html>
