@@ -1,0 +1,13 @@
+@charset "UFT-8";
+
+img#tablet {
+    background: url(../back-tablet.jpg);
+}
+
+@media and screen (min-widht:768px) and (max-widht:992px)
+
+img#phone {display: none; }
+img#tablet {display: none;}
+img#print {display: none;}
+img#pc {display: none;}
+img#tv |{display: none;}
