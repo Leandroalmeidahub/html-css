@@ -10,7 +10,7 @@ tv - 1025..
 
 
 
-@media screen and (min-widht:481px) and (max-widht:768px) { body {
+@media screen and (min-widht: 481px) and (max-widht: 768px) { body {
     background-image: url(back-tablet.jpg);
 }
 
@@ -24,7 +24,7 @@ img#tv { display: none; }
 }
 
 
-@media screen and (min-widht:769px) and (max-widht:1024px) {
+@media screen and (min-widht: 769px) and (max-widht: 1024px) {
 body {
     background-image: url(back-pc.jpg);
 }
