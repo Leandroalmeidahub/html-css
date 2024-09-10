@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    fle
+    background-color: lightblue;
+    border: 5px solid blue;
+    width: 800px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%)
+    
+    
+}
+
+body {background-color: rgba(0, 0, 0, 0.356);}
+
+.item {
+    padding: 10px;
+    
+    border: 2px solid rgb(97, 58, 240);
+    background-color: lawngreen;
+    color: black;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
