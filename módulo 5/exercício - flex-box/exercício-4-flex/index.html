@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4 - Flex-basis</title>
+    <style>
+        #conteiner {
+
+            display: flex;
+            flex-flow: row wrap;
+            flex: auto;
+            
+        }
+
+        .item1 {
+            flex-shrink: 1;
+            flex-grow: 0;
+
+        }
+
+        .item2 {
+            flex-shrink: 2;
+            flex-grow: 0;
+
+        }
+
+        .item3 {
+            flex-shrink: 1;
+            flex-grow: 0;
+
+        }
+
+        .item1, .item2, .item3 {
+            height: 100px;
+            background-color: lightgrey;
+            border: 2px solid gray;
+            display: flex;
+            flex-basis: 350px;
+
+            
+        }
+
+        
+    </style>
+</head>
+<body>
+    
+    <div id="conteiner">
+
+        <div class="item1">123456789</div>
+        <div class="item2">123456789</div>
+        <div class="item3">123456789</div>
+
+    </div>
+
+
+</body>
+</html>
